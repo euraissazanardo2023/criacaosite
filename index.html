@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha sua Aventura</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario1.png" alt="">
+            <p>Bem-vindo à sua aventura! Faça suas escolhas e explore o desconhecido.</p>
+            <button class="btn-proximo" data-proximo="1">Caminho da Floresta</button>
+            <button class="btn-proximo" data-proximo="2">Caminho da Montanha</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>A floresta é densa e escura, mas você sente que algo te observa...</p>
+            <button class="btn-proximo" data-proximo="3">Explorar mais</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para o início</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>A montanha é íngreme e desafiadora, mas a vista vale a pena.</p>
+            <button class="btn-proximo" data-proximo="5">Subir mais alto</button>
+            <button class="btn-proximo" data-proximo="6">Desistir e voltar para o início</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <p>Você se aprofunda na floresta e encontra uma antiga cabana. Há sinais de que alguém esteve aqui recentemente.</p>
+            <button class="btn-proximo" data-proximo="7">Investigar a cabana</button>
+            <button class="btn-proximo" data-proximo="8">Ignorar e continuar explorando</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario2.png" alt="Imagem voltando para casa e desistindo da aventura">
+            <p>Você decidiu que a floresta é assustadora demais e volta para casa. A curiosidade, no entanto, nunca o deixará em paz...</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Subindo mais alto na montanha, você percebe um templo antigo escondido nas rochas. Você se pergunta o que pode estar lá dentro.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o templo</button>
+            <button class="btn-proximo" data-proximo="10">Ignorar e continuar subindo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/cenario2.png" alt="Imagem retornando para casa após desistir">
+            <p>Você desiste da subida e decide voltar para casa, sempre se perguntando o que teria encontrado mais alto na montanha.</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Dentro da cabana, você encontra pistas sobre uma antiga civilização que habitava essa floresta. Elas apontam para um rio próximo.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir até o rio</button>
+            <button class="btn-proximo" data-proximo="12">Ficar na cabana e descansar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você continua a explorar a floresta, mas o ambiente fica cada vez mais hostil. No entanto, você sente que está perto de algo importante.</p>
+            <button class="btn-proximo" data-proximo="13">Continuar explorando</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Dentro do templo, você encontra inscrições que sugerem a existência de um tesouro escondido nas profundezas da montanha.</p>
+            <button class="btn-proximo" data-proximo="14">Explorar as profundezas do templo</button>
+            <button class="btn-proximo" data-proximo="6">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você decide ignorar o templo e continua subindo. A vista do topo da montanha é magnífica, mas você sente que perdeu algo importante.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Ao chegar ao rio, você encontra um barco misterioso, aparentemente deixado para quem ousar seguir adiante.</p>
+            <button class="btn-proximo" data-proximo="15">Pegar o barco e navegar</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você decide descansar na cabana, mas acaba adormecendo profundamente. Quando acorda, percebe que perdeu o rastro de suas pistas.</p>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Ao continuar explorando, você encontra ruínas escondidas, onde os segredos da antiga civilização começam a se revelar.</p>
+            <button class="btn-proximo" data-proximo="16">Explorar as ruínas</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Nas profundezas do templo, você encontra um cofre trancado. Uma inscrição avisa que apenas os corajosos podem abrir.</p>
+            <button class="btn-proximo" data-proximo="17">Abrir o cofre</button>
+            <button class="btn-proximo" data-proximo="6">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Navegando pelo rio, você descobre uma cachoeira secreta que esconde a entrada para um vale desconhecido.</p>
+            <button class="btn-proximo" data-proximo="18">Explorar o vale</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <p>Explorando as ruínas, você descobre artefatos que indicam uma civilização muito avançada para a época.</p>
+            <button class="btn-proximo" data-proximo="19">Investigar mais</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <p>Ao abrir o cofre, você encontra um antigo artefato que parece ter poderes além da compreensão humana. Sua jornada termina aqui, mas o mistério continua.</p>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <p>No vale secreto, você encontra uma tribo que guarda segredos antigos sobre o início da humanidade. Sua aventura agora se torna uma busca por conhecimento.</p>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <p>Ao investigar mais, você descobre um livro contendo todo o conhecimento perdido da antiga civilização. Sua busca por respostas finalmente chega ao fim.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
